@@ -1,0 +1,5 @@
+Importância do HTML, CSS e JS na construção de paginas?
+
+O HTML é a linguagem de marcação de texto que é base da estrutura de uma construção de paginas, onde é escrito o tipo de elementos que queremos, como: um texto(p), um container(div), o cabeçalho(header) e etc...
+O CSS é a onde podemos ta desenvolvendo a estilização dessa pagina, como: cor, altura, centralizar elemento, tamanho e etc.
+O Javascript é o que dá movimento e ação, assim podendo deixar a pagina mais dinamica. É a onde usamos completamente linguagem de programação.
