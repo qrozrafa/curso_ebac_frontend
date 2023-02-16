@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <title>jQuery</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="Image/logo.png" alt="">
+      <h1>Lista de tarefa</h1>
+    </header>
+    <form id="form">
+      <input type="text" id="input-tarefa" required placeholder="Digite a tarefa" />
+      <button type="submit">Adicionar</button>
+      <button type="reset" id="limpar" class="limpar">Limpar</button>
+    </form>
+      <button type="button" id="check">check all</button>
+      <button type="reset" id="limpar-todos" class="limpar">Apagar lista</button>
+      <ul class="listas">
+      </ul>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

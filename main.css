@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: #E7E7E7;
+  padding-top: 250px;
+}
+
+.container {
+  max-width: fit-content;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+header img {
+  height: 36px;
+  margin-right: 16px;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  max-width: 640px;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+form input {
+  font-size: 24px;
+  background-color: #fff;
+  border: none;
+  border-bottom: 2px solid #000;
+  padding: 8px;
+  border-radius: 25px;
+}
+
+button {
+  background-color: #009432;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 25px;
+  margin-left: 16px;
+}
+button:hover {
+  background-color: #037027;
+}
+.limpar {
+  background-color: #c22727;
+}
+.limpar:hover {
+  background-color: #941e1e;
+}
+
+.listas {
+  width: 555px;
+  margin: 16px auto;
+  background-color: #fff;
+  border-radius: 25px;
+  transition: .5s;
+}
+
+.lista {
+  cursor: pointer;
+  padding: 16px;
+  list-style: none;
+  width: 555px;
+  transition: .5s;
+}
+
+.item-completado {
+  text-decoration: line-through; 
+}
