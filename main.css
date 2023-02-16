@@ -48,4 +48,9 @@ button {
   font-weight: 700;
   font-size: 22px;
   border-radius: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2e4ea7;
 }
