@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: #E7E7E7;
+  padding-top: 100px;
+}
+
+.container {
+  max-width: fit-content;
+  width: 100%;
+  margin: 0 auto;
+}
+
+form input,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+
+}
+label {
+  color: #969696;
+}
+.campo-for {
+  margin-bottom: 16px;
+}
+
+h1 {
+  margin-bottom: 16px;
+}
+
+img {
+  height: 80px;
+  margin-bottom: 16px;
+}
+
+button {
+  border-radius: 25px;
+  background-color: #395fc9;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  border-radius: 25px;
+}

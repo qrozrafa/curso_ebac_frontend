@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <title>Plugin jQuery</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Formulário Plugin</h1>
+      <img src="image/logo.png" alt="">
+    </header>
+    <form>
+      <div class="campo-for">
+        <label for="nome">Nome Completo</label>
+        <input class="forms" id="nome" type="text" placeholder="Nome Completo" name="nome"/>
+      </div>
+      <div class="campo-for">
+        <label for="email">E-mail</label>
+        <input class="forms" id="email" type="email" placeholder="Seu e-mail" name="email"/>
+      </div>
+      <div class="campo-for">
+        <label for="tell">Telefone</label>
+        <input class="forms" type="tel" id="tell" placeholder="Seu telefone" name="tell" />
+      </div>
+      <div class="campo-for">
+        <label for="cpf">CPF</label>
+        <input class="forms" type="text" id="cpf" placeholder="Seu CPF" name="cpf" />
+      </div>
+      <div class="campo-for">
+        <label for="endereco">Endereço</label>
+        <input class="forms" type="text" id="endereco" placeholder="Seu endereço" name="endereco"/>
+      </div>
+      <div class="campo-for">
+        <label for="cep">CEP</label>
+        <input class="forms" type="text" id="cep" placeholder="Seu CEP" name="cep"/>
+      </div>
+      <button class="forms" type="submit">Enviar</button>
+    </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/jquery.mask.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/messages_pt_BR.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
